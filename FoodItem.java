@@ -15,12 +15,14 @@ public class FoodItem{
            n = "Low";
         return n;
     }
-    //Object using constructor
-    FoodItem foodItem = new FoodItem("Apple");
+    
 
     public static void main(String[] args) {
-        FoodItem soya = new FoodItem("soya");
-        soya.displayPrice(true);
+        //Object using constructor
+        //Didnt create Driver class because private methods are not visible outside class
+        FoodItem foodItem = new FoodItem("Apple");
+        FoodItem soya = new FoodItem("soya"); 
+        System.out.println(soya.displayPrice(true));
     }
 
 }
