@@ -18,9 +18,10 @@ public class FoodItem{
     //Object using constructor
     FoodItem foodItem = new FoodItem("Apple");
 
+    public static void main(String[] args) {
+        FoodItem soya = new FoodItem("soya");
+        soya.displayPrice(true);
+    }
 
-    // public static void main(String[] args) {
-    //     //Object Using Constructor
-    //     FoodItem foodItem = new FoodItem("Apple");
-    // }
 }
+
