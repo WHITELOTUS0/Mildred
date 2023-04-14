@@ -15,9 +15,12 @@ public class FoodItem{
            n = "Low";
         return n;
     }
+    //Object using constructor
+    FoodItem foodItem = new FoodItem("Apple");
 
-    public static void main(String[] args) {
-        //Object Using Constructor
-        FoodItem foodItem = new FoodItem("Apple");
-    }
+
+    // public static void main(String[] args) {
+    //     //Object Using Constructor
+    //     FoodItem foodItem = new FoodItem("Apple");
+    // }
 }
