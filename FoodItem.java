@@ -7,7 +7,13 @@ public class FoodItem{
     }
 
     private String displayPrice(boolean highPrice){
-
+        String n;
+        if(highPrice==true){
+            n = "High";
+        }
+        else
+           n = "Low";
+        return n;
     }
 
     public static void main(String[] args) {
